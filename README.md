@@ -1,6 +1,8 @@
 # GitHub Contribution Style Fixer
 A Chrome extension that removes border-radius and border from GitHub contribution squares, giving them a clean, flat appearance.
 
+![GitHub UI Preview](github-ui.png)
+
 ## Features
 - Removes rounded corners from GitHub contribution squares
 - Removes borders from contribution squares
