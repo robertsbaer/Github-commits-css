@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "GitHub Contribution Style Fixer",
+    "version": "1.0",
+    "description": "Removes border-radius and border from GitHub contribution squares.",
+    "content_scripts": [
+      {
+        "matches": ["*://github.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "permissions": []
+  }
+  
